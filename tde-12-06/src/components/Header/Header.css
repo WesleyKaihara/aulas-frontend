@@ -1,0 +1,13 @@
+#header {
+  background: #026466;
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+#header h1 {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 12px;
+}

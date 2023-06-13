@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDE-06/06</title>
+  <style>
+    .circle {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      border: 6px dotted #00d5ff;
+    }
+    .square {
+      width: 200px;
+      height: 200px;
+    }
+    .bg-pink {
+      background: #b565ff;
+    }
+    .bg-blue {
+      background: #00d5ff;
+    }
+    .title {
+      text-align: center;
+      color: #fff;
+    }
+    .row {
+      display: flex;
+      gap: .5em;
+    }
+    .border-dashed-pink {
+      border: 10px dashed #b565ff;
+    }
+    .border-solid-blue {
+      border: 10px solid #00d5ff;
+    }
+    .rounded {
+      border-radius: 25px;
+    }
+  </style>
+</head>
+<body>
+  <div class="circle bg-pink "></div>
+  <br>
+  <section class="row">
+    <div class="square bg-pink border-solid-blue rounded"></div>
+    <div class="square bg-blue border-dashed-pink">
+      <h1 class="title">Texto texto</h1>
+    </div>
+  </section>
+</body>
+</html>
